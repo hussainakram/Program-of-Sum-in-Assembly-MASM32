@@ -19,7 +19,8 @@ Summing:
 	mov dh,12
 	mov dl,39
 	call Gotoxy
-	
+
+	; storing starting address of string
 	mov edx, offset string
 	call writeString
 	call ReadDec
